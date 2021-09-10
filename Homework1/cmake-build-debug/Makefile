@@ -128,29 +128,29 @@ Homework1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework1.dir\build.make CMakeFiles/Homework1.dir/build
 .PHONY : Homework1/fast
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+diamond.obj: diamond.cpp.obj
+.PHONY : diamond.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework1.dir\build.make CMakeFiles/Homework1.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+diamond.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework1.dir\build.make CMakeFiles/Homework1.dir/diamond.cpp.obj
+.PHONY : diamond.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+diamond.i: diamond.cpp.i
+.PHONY : diamond.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework1.dir\build.make CMakeFiles/Homework1.dir/main.cpp.i
-.PHONY : main.cpp.i
+diamond.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework1.dir\build.make CMakeFiles/Homework1.dir/diamond.cpp.i
+.PHONY : diamond.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+diamond.s: diamond.cpp.s
+.PHONY : diamond.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework1.dir\build.make CMakeFiles/Homework1.dir/main.cpp.s
-.PHONY : main.cpp.s
+diamond.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework1.dir\build.make CMakeFiles/Homework1.dir/diamond.cpp.s
+.PHONY : diamond.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Homework1
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... diamond.obj
+	@echo ... diamond.i
+	@echo ... diamond.s
 .PHONY : help
 
 

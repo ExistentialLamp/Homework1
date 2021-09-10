@@ -1,3 +1,10 @@
+/*
+ * Diamond.cpp
+ * Simon Bosse
+ * 9/10/21
+ * Prints a diamond of a character
+ */
+
 #include <iostream>
 using std::cout;
 using std::endl;

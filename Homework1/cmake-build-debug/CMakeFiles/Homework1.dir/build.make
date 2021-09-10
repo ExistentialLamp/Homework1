@@ -65,27 +65,27 @@ include CMakeFiles/Homework1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Homework1.dir/flags.make
 
-CMakeFiles/Homework1.dir/main.cpp.obj: CMakeFiles/Homework1.dir/flags.make
-CMakeFiles/Homework1.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\owner\CLionProjects\CS201\Homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Homework1.dir/main.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Homework1.dir\main.cpp.obj -c C:\Users\owner\CLionProjects\CS201\Homework1\main.cpp
+CMakeFiles/Homework1.dir/diamond.cpp.obj: CMakeFiles/Homework1.dir/flags.make
+CMakeFiles/Homework1.dir/diamond.cpp.obj: ../diamond.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\owner\CLionProjects\CS201\Homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Homework1.dir/diamond.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Homework1.dir\diamond.cpp.obj -c C:\Users\owner\CLionProjects\CS201\Homework1\diamond.cpp
 
-CMakeFiles/Homework1.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Homework1.dir/main.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\owner\CLionProjects\CS201\Homework1\main.cpp > CMakeFiles\Homework1.dir\main.cpp.i
+CMakeFiles/Homework1.dir/diamond.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Homework1.dir/diamond.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\owner\CLionProjects\CS201\Homework1\diamond.cpp > CMakeFiles\Homework1.dir\diamond.cpp.i
 
-CMakeFiles/Homework1.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Homework1.dir/main.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\owner\CLionProjects\CS201\Homework1\main.cpp -o CMakeFiles\Homework1.dir\main.cpp.s
+CMakeFiles/Homework1.dir/diamond.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Homework1.dir/diamond.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\owner\CLionProjects\CS201\Homework1\diamond.cpp -o CMakeFiles\Homework1.dir\diamond.cpp.s
 
 # Object files for target Homework1
 Homework1_OBJECTS = \
-"CMakeFiles/Homework1.dir/main.cpp.obj"
+"CMakeFiles/Homework1.dir/diamond.cpp.obj"
 
 # External object files for target Homework1
 Homework1_EXTERNAL_OBJECTS =
 
-Homework1.exe: CMakeFiles/Homework1.dir/main.cpp.obj
+Homework1.exe: CMakeFiles/Homework1.dir/diamond.cpp.obj
 Homework1.exe: CMakeFiles/Homework1.dir/build.make
 Homework1.exe: CMakeFiles/Homework1.dir/linklibs.rsp
 Homework1.exe: CMakeFiles/Homework1.dir/objects1.rsp
